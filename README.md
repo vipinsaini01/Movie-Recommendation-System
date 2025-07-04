@@ -1,38 +1,21 @@
-# Movie-Recommendation-System
-A content-based movie recommendation system with EDA using Python.
-# Netflix Data EDA 📺
+# Netflix Recommendation System
 
-This project explores the Netflix titles dataset through data cleaning, visualization, and trend analysis using Python and pandas.  
-It uncovers insights like content types, top genres, countries, and duration distributions across ratings.
+This project implements a Content-Based Recommendation System using the Netflix Titles dataset. It leverages TF-IDF Vectorization and Cosine Similarity to identify and suggest similar shows and movies.
 
-## Key Features
-- Missing value handling (director, cast, country)
-- Genre frequency analysis using Counter
-- Top content-producing countries and directors
-- Date parsing and analysis of content added over years/months
-- Duration vs Rating analysis for movies using boxplots
+## Features:
 
-##  Tools & Libraries
-- Python
-- pandas, NumPy
-- seaborn, matplotlib
-- collections (Counter)
+* **Content-Based Recommendations**: Recommends similar titles based on various attributes such as title, director, cast, genre, and description.
+* **Interactive Recommendations**: Allows users to input a title and receive 5 similar recommendations.
+* **Genre Filtering**: Provides a basic popularity-based filter for different genres.
+* **Interactive GUI**: Includes a mini graphical user interface (GUI) developed with `ipywidgets` for interactive use within Jupyter Notebook.
 
-## Visual Insights
-- Bar and horizontal bar charts for top genres, countries, and directors
-- Countplot for year-wise content addition
-- Boxplot of movie durations by rating
+## Technologies Used:
 
-## Files
-- `netflix_titles.csv`: Dataset used
-- `recommendme.ipynb`: Main notebook with all code and analysis
+* Python
+* Pandas (for data manipulation and analysis)
+* Scikit-learn (for TF-IDF Vectorizer and Cosine Similarity)
+* IPyWidgets (for interactive elements in the Jupyter Notebook)
 
-## Dataset Info
-Source: [Netflix Titles Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+## Development Context:
 
----
-
-### How to Run
-1. Clone the repo or download the notebook
-2. Place `netflix_titles.csv` in the same folder
-3. Run the notebook in Jupyter to view insights
+This project was developed as part of a Machine Learning & Data Science learning journey.
