@@ -25,7 +25,7 @@ It uncovers insights like content types, top genres, countries, and duration dis
 
 ## Files
 - `netflix_titles.csv`: Dataset used
-- `netflix_eda.ipynb`: Main notebook with all code and analysis
+- `recommendme.ipynb`: Main notebook with all code and analysis
 
 ## Dataset Info
 Source: [Netflix Titles Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
